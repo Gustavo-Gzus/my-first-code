@@ -5,6 +5,11 @@ var demografia = [
 var denpopu = demografia[1]
 var denpopu2 = demografia[3]
 var result = demografia[1]/demografia[3]
-console.log(`A densidade é de ${result}`)
-console.log(demografia+[",densidade", result])
+
+console.log(`A densidade de São Carlos é ${result}`)
+
+demografia [4] = "densidade"
+demografia [5] = result
+
+console.log(demografia)
 
